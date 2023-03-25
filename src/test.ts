@@ -13,3 +13,5 @@ async function testInfo(domain: string) {
         console.error(`Error: ${error.message}`);
     }
 }
+
+testInfo('mc.hypixel.net');
