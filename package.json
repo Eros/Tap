@@ -1,0 +1,11 @@
+{
+  "name": "tap",
+  "version": "1.0.0",
+  "description": "Small server util for obtaining Minecraft Server information",
+  "author": "George Marr",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.15.9",
+    "typescript": "^5.0.2"
+  }
+}
