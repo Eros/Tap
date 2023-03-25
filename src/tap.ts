@@ -35,7 +35,7 @@ export class Tap {
      * @param port
      * @return {@link ServerInfo}
      */
-    public async _fetchServerInfo(address: string, port: number): Promise<ServerInfo> {
+    public async fetchServerInfoFromAddressAndPort(address: string, port: number): Promise<ServerInfo> {
         return await this.getServerInformation(address, port);
     }
 

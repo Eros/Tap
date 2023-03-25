@@ -24,7 +24,7 @@ async function test1(domain: string) {
 async function test2() {
     try {
         const server = new Tap(null, 5_000);
-        const info = await server._fetchServerInfo('123.456.789', 25665);
+        const info = await server.fetchServerInfoFromAddressAndPort('123.456.789', 25665);
         
         console.log(`Name: ${serverInfo.name}`);
         console.log(`Player count: ${serverInfo.playerCount}`);
