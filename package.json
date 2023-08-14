@@ -5,7 +5,7 @@
   "author": "George Marr",
   "license": "ISC",
   "devDependencies": {
-    "@types/node": "^20.3.0",
+    "@types/node": "^20.5.0",
     "typescript": "^5.1.6"
   }
 }
